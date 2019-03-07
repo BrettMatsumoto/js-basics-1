@@ -34,7 +34,7 @@ var dataTypes = ['Hi', 4, true, null, undefined, {name: myName}]
 var dog = {
     name: 'Spot',
     bark: function(){
-        return 'bark'
+        console.log('bark')
     }
 } 
 console.log(dog.bark())
